@@ -14,6 +14,7 @@
 		C23B73D01A832B8400E0E063 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23B73CF1A832B8400E0E063 /* Images.xcassets */; };
 		C23B73D31A832B8400E0E063 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C23B73D11A832B8400E0E063 /* LaunchScreen.xib */; };
 		C23B73DF1A832B8500E0E063 /* FightKeatonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C23B73DE1A832B8500E0E063 /* FightKeatonTests.m */; };
+		C23B73EA1A832D7200E0E063 /* FightGame.m in Sources */ = {isa = PBXBuildFile; fileRef = C23B73E91A832D7200E0E063 /* FightGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C23B73D81A832B8500E0E063 /* FightKeatonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FightKeatonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23B73DD1A832B8500E0E063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C23B73DE1A832B8500E0E063 /* FightKeatonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FightKeatonTests.m; sourceTree = "<group>"; };
+		C23B73E81A832D7200E0E063 /* FightGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FightGame.h; sourceTree = "<group>"; };
+		C23B73E91A832D7200E0E063 /* FightGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FightGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C23B73CF1A832B8400E0E063 /* Images.xcassets */,
 				C23B73D11A832B8400E0E063 /* LaunchScreen.xib */,
 				C23B73C21A832B8400E0E063 /* Supporting Files */,
+				C23B73E81A832D7200E0E063 /* FightGame.h */,
+				C23B73E91A832D7200E0E063 /* FightGame.m */,
 			);
 			path = FightKeaton;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				C23B73CB1A832B8400E0E063 /* ViewController.m in Sources */,
 				C23B73C81A832B8400E0E063 /* AppDelegate.m in Sources */,
+				C23B73EA1A832D7200E0E063 /* FightGame.m in Sources */,
 				C23B73C51A832B8400E0E063 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
