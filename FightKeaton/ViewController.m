@@ -30,7 +30,7 @@
 
 -(void)nextTurn
 {
-    if (self.game.defendingTeamSoldierCount < 1 || self.game.attackingTeamSoldierCount < 1)
+    if (self.game.defendingTeamSoldierCount < 1 || self.game.attackingTeamSoldierCount < 2)
     {
         [self gameOver];
     } else {
